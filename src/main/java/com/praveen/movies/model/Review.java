@@ -3,7 +3,6 @@ package com.praveen.movies.model;
 import lombok.*;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Document;
-
 @Document(collation = "review")
 @Data
 @AllArgsConstructor
